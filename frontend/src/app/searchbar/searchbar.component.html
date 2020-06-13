@@ -1,0 +1,11 @@
+<div class="card">
+  <form (ngSubmit)="getWeatherForLocation()" #locationForm="ngForm">
+    <div class="form-group">
+      <input type="text" name="location" class="form-control" placeholder="Location..." [(ngModel)]="location" required>
+      <button type="submit" class="btn btn-primary btn-sm">Get forecast</button>
+    </div>
+  </form>
+  <div *ngIf="error" class="alert alert-danger" role="alert">
+    An error has occurred...
+  </div>
+</div>

@@ -1,0 +1,10 @@
+.card {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #4096ee;
+  border: 1px solid #4096ee;
+  color: #FFFF;
+  -webkit-box-shadow: 2px 2px 10px 1px #1155AD;
+  box-shadow: 2px 2px 10px 1px #1155AD;
+  opacity: 0.8;
+}
